@@ -16,8 +16,7 @@ entity Books : managed {
       stock    : Integer;
       price    : Price;
       currency : Currency;
-      name1    : String; // for Fiori Elements draft handling
-      name2    : String; // for Fiori Elements draft handling
+      name5    : String(5);
       
 }
 
